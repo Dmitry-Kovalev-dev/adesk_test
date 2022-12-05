@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelectorAll(".faq__text").forEach((function(t){t.addEventListener("click",(function(t){t.target.nextElementSibling.classList.toggle("faq__answer-box_off")}))}))})();
