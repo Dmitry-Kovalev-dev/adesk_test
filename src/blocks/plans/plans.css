@@ -1,0 +1,22 @@
+.plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 267px);
+  max-width: 1140px;
+  gap: 24px;
+  align-self: start;
+}
+
+@media screen and (max-width: 1139px) {
+  .plans {
+    grid-template-columns: repeat(2, 344px);
+    max-width: 100vw;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .plans {
+    grid-template-columns: 345px;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/font/Graphik-font.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_type/button_type_signin.css);
+@import url(./blocks/button/_type/button_type_signup.css);
+@import url(./blocks/button/_type/button_type_plan.css);
+@import url(./blocks/button/_type/button_type_start.css);
+@import url(./blocks/button/_type/button_type_consulting.css);
+@import url(./blocks/button/_type/button_type_burger.css);
+@import url(./blocks/content/content.css);
+@import url(./blocks/price/price.css);
+@import url(./blocks/plans/plans.css);
+@import url(./blocks/plan/plan.css);
+@import url(./blocks/start/start.css);
+@import url(./blocks/consulting/consulting.css);
+@import url(./blocks/faqs/faqs.css);
+@import url(./blocks/faq/faq.css);
+@import url(./blocks/footer/footer.css);
+
+:root {
+  --lightBlue: #0F8FF9;
+  --darkBlue: #051534;
+  --black: #2C3038;
+  --font: 'Graphik LCG', Arial, Helvetica, sans-serif;
+}

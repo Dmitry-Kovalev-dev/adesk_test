@@ -1,0 +1,44 @@
+.faqs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 200px 0 234px;
+}
+
+.faqs__title {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 110%;
+  letter-spacing: -0.005em;
+  color: var(--darkBlue);
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.faqs__box {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1139px) {
+  .faqs {
+    padding: 120px 0 200px;
+  }
+  
+  .faqs__title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faqs {
+    padding: 100px 0;
+  }
+  
+  .faqs__title {
+    margin: 0 0 40px;
+    font-size: 30px;
+  }
+}

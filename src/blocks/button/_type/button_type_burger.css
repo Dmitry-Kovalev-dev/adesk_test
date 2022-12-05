@@ -1,0 +1,30 @@
+.button_type_burger {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .button_type_burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+  }
+
+  .burger-line {
+    width: 18px;
+    height: 2px;
+    background-color: var(--darkBlue);
+    border-radius: 50px;
+    margin: 0 0 4px;
+  }
+
+  .burger-line:last-child {
+    margin: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.button_type_plan {
+  width: 217px;
+  color: #fff;
+}
+
+/* mixes for plan buttons */
+.plan-first {
+  background-color: #F0568E;
+}
+
+.plan-business {
+ background-color: #00C064;
+}
+
+.plan-comfort {
+  background-color: var(--lightBlue);
+}
+
+.plan-economy {
+  background-color: #fff;
+  border: 1px solid rgba(5, 21, 52, 0.3);
+  color: var(--darkBlue);
+}
+
+@media screen and (max-width: 1139px) {
+  .button_type_plan {
+    width: 100%;
+  }
+}

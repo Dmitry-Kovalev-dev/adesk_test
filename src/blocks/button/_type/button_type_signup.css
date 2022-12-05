@@ -1,0 +1,11 @@
+.button_type_signup {
+  background: var(--lightBlue);
+  color: #fff;
+  width: 221px;
+}
+
+@media screen and (max-width: 767px) {
+  .button_type_signup {
+    display: none;
+  }
+}

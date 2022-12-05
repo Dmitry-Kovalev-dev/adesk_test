@@ -1,0 +1,140 @@
+.plan {
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.plan__title {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--darkBlue);
+  margin: 10px 0;
+  padding: 0;
+}
+
+.plan__discription {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--darkBlue);
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+.plan__cost {
+  font-family: var(--font);
+  color: var(--darkBlue);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin: 0 0 5px;
+  padding: 0;
+}
+
+.plan__cost-caption {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: rgba(5, 21, 52, 0.5);
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+.plan__limits {
+  margin: 0 0 15px;
+  padding-left: 0;
+}
+
+.plan__limit {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #051534;
+  list-style: none;
+  display: flex;
+  margin: 0 0 8px;
+}
+
+.plan__limit:last-of-type {
+  margin: 0;
+}
+
+.plan__icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 5px 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.plan__list {
+  margin: 0 0 39px;
+  padding: 0;
+}
+
+.plan__list-item {
+  list-style: none;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--darkBlue);
+  display: flex;
+  margin: 0 0 8px;
+}
+
+.plan__list-item_off {
+  color: rgba(5, 21, 52, 0.25);
+}
+
+.plan__list-item:last-child {
+  margin: 0;
+}
+
+
+/* mixes for plan icon */
+
+.user-icon {
+  background-image: url(../../images/user.svg);
+}
+
+.legal-icon {
+  background-image: url(../../images/legal.svg);
+}
+
+.ok-icon {
+  background-image: url(../../images/done.svg);
+}
+
+.none-icon {
+  background-image: url(../../images/none-icon.svg);
+}
+
+/* mixes for plan-box */
+
+.first {
+  background-color: #FFF0F7;
+}
+
+.business {
+  background-color: #EAFFEE;
+}
+
+.comfort {
+  background-color: #F0FCFF;
+}
+
+.economy {
+  background-color: #F9F9F9;
+}

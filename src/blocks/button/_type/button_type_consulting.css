@@ -1,0 +1,15 @@
+.button_type_consulting {
+  font-size: 24px;
+  color: #fff;
+  width: 334px;
+  height: 60px;
+  background: #051534;
+}
+
+@media screen and (max-width: 767px) {
+  .button_type_consulting {
+    font-size: 18px;
+    width: 248px;
+    height: 42px;
+  }
+}
